@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MTG Score Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>MTG Score Table</h1>
+    <input placeholder="Insert player's name" id="inputName" value="" /><button
+      id="submitName"
+    >
+      Add player
+    </button>
+    <input
+      placeholder="Insert your commander image URL"
+      id="commanderImg"
+      value=""
+    />
+    <input placeholder="If you have partner" id="partnerCommander" />
+
+    <table>
+      <thead>
+        <tr></tr>
+      </thead>
+      <tbody id="playerTable">
+        <tr>
+          <td>Name</td>
+          <td>Life</td>
+          <td>Infect</td>
+          <td>Exp counter</td>
+          <div id="playerAreaButtons"></div>
+          <td>
+            <button onClick="increaseLifePoints()">+</button>Life<button
+              onClick="decreaseLifePoints()"
+            >
+              -
+            </button>
+          </td>
+          <td>
+            <button onClick="increaseInfectPoints()">+</button>Infect<button
+              onClick="decreaseInfectPoints()"
+            >
+              -
+            </button>
+          </td>
+          <td>
+            <button onClick="increaseMarkPoints()">+</button>Exp counter<button
+              onClick="decreaseMarkPoints()"
+            >
+              -
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Rafa</td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="diceCase">Dice displayed Here</div>
+    <script src="script.js"></script>
+  </body>
+</html>
