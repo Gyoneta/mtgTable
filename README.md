@@ -9,4 +9,6 @@ A simple way to keep track of player's life point, counters, commanders, etc
 
 2 - Utilizando projeto como teste de versionamento através de repositório local e remoto (git e gitHub)
 
-3 - ultima vez criou nova pasta
+3 - API pros commanders
+
+4 - WebSocket pro futuro
