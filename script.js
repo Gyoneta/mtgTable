@@ -75,37 +75,37 @@ let d20 = [
   //20
 ]
 
-function rollD6() {
+function rollD6(player) {
   let d6Result = parseInt(Math.random() * 6 + 1)
   console.log(d6Result)
 
   if (d6Result == 1) {
-    diceCase.innerHTML = '1'
+    diceCase.innerHTML = `${player.id}'s D6: 1`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 2) {
-    diceCase.innerHTML = '2'
+    diceCase.innerHTML = `${player.id}'s D6: 2`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 3) {
-    diceCase.innerHTML = '3'
+    diceCase.innerHTML = `${player.id}'s D6: 3`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 4) {
     diceCase.innerHTML = '4'
     setTimeout(function () {
-      diceCase.innerHTML = 'Dice displayed Here'
+      diceCase.innerHTML = `${player.id}'s D6: 4`
     }, 5000)
   } else if (d6Result == 5) {
-    diceCase.innerHTML = '5'
+    diceCase.innerHTML = `${player.id}'s D6: 5`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 6) {
-    diceCase.innerHTML = '6'
+    diceCase.innerHTML = `${player.id}'s D6: 6`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
@@ -114,108 +114,124 @@ function rollD6() {
   // todos os IDs estão iguais a um único valor, NÃO PODE!!!!
 }
 
-function rollD20() {
+function rollD20(player) {
   let d20Result = parseInt(Math.random() * 20 + 1)
   console.log(d20Result)
   if (d20Result == 1) {
-    diceCase.innerHTML = '1'
+    diceCase.innerHTML = `${player.id}'s D20: 1`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 2) {
-    diceCase.innerHTML = '2'
+    diceCase.innerHTML = `${player.id}'s D20: 2`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 3) {
-    diceCase.innerHTML = '3'
+    diceCase.innerHTML = `${player.id}'s D20: 3`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 4) {
-    diceCase.innerHTML = '4'
+    diceCase.innerHTML = `${player.id}'s D20: 4`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 5) {
-    diceCase.innerHTML = '5'
+    diceCase.innerHTML = `${player.id}'s D20: 5`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 6) {
-    diceCase.innerHTML = '6'
+    diceCase.innerHTML = `${player.id}'s D20: 6`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 7) {
-    diceCase.innerHTML = '7'
+    diceCase.innerHTML = `${player.id}'s D20: 7`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 8) {
-    diceCase.innerHTML = '8'
+    diceCase.innerHTML = `${player.id}'s D20: 8`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 9) {
-    diceCase.innerHTML = '9'
+    diceCase.innerHTML = `${player.id}'s D20: 9`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 10) {
-    diceCase.innerHTML = '10'
+    diceCase.innerHTML = `${player.id}'s D20: 10`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 11) {
-    diceCase.innerHTML = '11'
+    diceCase.innerHTML = `${player.id}'s D20: 11`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 12) {
-    diceCase.innerHTML = '12'
+    diceCase.innerHTML = `${player.id}'s D20: 12`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 13) {
-    diceCase.innerHTML = '13'
+    diceCase.innerHTML = `${player.id}'s D20: 13`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 14) {
-    diceCase.innerHTML = '14'
+    diceCase.innerHTML = `${player.id}'s D20: 14`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 15) {
-    diceCase.innerHTML = '15'
+    diceCase.innerHTML = `${player.id}'s D20: 15`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 16) {
-    diceCase.innerHTML = '16'
+    diceCase.innerHTML = `${player.id}'s D20: 16`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 17) {
-    diceCase.innerHTML = '17'
+    diceCase.innerHTML = `${player.id}'s D20: 17`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 18) {
-    diceCase.innerHTML = '18'
+    diceCase.innerHTML = `${player.id}'s D20: 18`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 19) {
-    diceCase.innerHTML = '19'
+    diceCase.innerHTML = `${player.id}'s D20: 19`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 20) {
-    diceCase.innerHTML = '20'
+    diceCase.innerHTML = `${player.id}'s D20: 20`
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
+    }, 5000)
+  }
+}
+
+const flipCoin = player => {
+  let coinResult = parseInt(Math.random() * 2 + 1)
+  console.log(coinResult)
+  if (coinResult == 1) {
+    diceCase.innerHTML = `${player.id}'s Coin: Heads`
+    setTimeout(function () {
+      diceCase.innerHTML = 'Dice displayer Here'
+    }, 5000)
+  } else {
+    diceCase.innerHTML = `${player.id}'s Coin: Tails`
+    setTimeout(function () {
+      diceCase.innerHTML = 'Dice displayer Here'
     }, 5000)
   }
 }
@@ -269,8 +285,8 @@ submitName.onclick = function registerName() {
         
         <td colspan="3">
         P1 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P2 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P3 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P4 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P5 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input>
-        <td colspan="3"><button onclick="rollD6()">Roll D6</button></br><button onclick="rollD20()">Roll D20</button>
-        
+        <td colspan="3"><button onclick="rollD6(${inputName.value})">Roll D6</button></br><button onclick="rollD20(${inputName.value})">Roll D20</button>
+        <button onclick="flipCoin(${inputName.value})">Flip Coin</button>
         </td>
         </td>
       </tr>
