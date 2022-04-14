@@ -11,4 +11,4 @@ A simple way to keep track of player's life point, counters, commanders, etc
 
 3 - Use and API for commanders area
 
-4 - WebSocket so people can checkout the score on their own!
+4 - WebSocket so people can checkout the score on their own
