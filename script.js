@@ -75,37 +75,64 @@ let d20 = [
   //20
 ]
 
+<<<<<<< HEAD
 function rollD6(player) {
+=======
+function rollD6() {
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
   let d6Result = parseInt(Math.random() * 6 + 1)
   console.log(d6Result)
 
   if (d6Result == 1) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D6: 1`
+=======
+    diceCase.innerHTML = '1'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 2) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D6: 2`
+=======
+    diceCase.innerHTML = '2'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 3) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D6: 3`
+=======
+    diceCase.innerHTML = '3'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 4) {
     diceCase.innerHTML = '4'
     setTimeout(function () {
+<<<<<<< HEAD
       diceCase.innerHTML = `${player.id}'s D6: 4`
     }, 5000)
   } else if (d6Result == 5) {
     diceCase.innerHTML = `${player.id}'s D6: 5`
+=======
+      diceCase.innerHTML = 'Dice displayed Here'
+    }, 5000)
+  } else if (d6Result == 5) {
+    diceCase.innerHTML = '5'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d6Result == 6) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D6: 6`
+=======
+    diceCase.innerHTML = '6'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
@@ -114,112 +141,197 @@ function rollD6(player) {
   // todos os IDs estão iguais a um único valor, NÃO PODE!!!!
 }
 
+<<<<<<< HEAD
 function rollD20(player) {
   let d20Result = parseInt(Math.random() * 20 + 1)
   console.log(d20Result)
   if (d20Result == 1) {
     diceCase.innerHTML = `${player.id}'s D20: 1`
+=======
+function rollD20() {
+  let d20Result = parseInt(Math.random() * 20 + 1)
+  console.log(d20Result)
+  if (d20Result == 1) {
+    diceCase.innerHTML = '1'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 2) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 2`
+=======
+    diceCase.innerHTML = '2'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 3) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 3`
+=======
+    diceCase.innerHTML = '3'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 4) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 4`
+=======
+    diceCase.innerHTML = '4'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 5) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 5`
+=======
+    diceCase.innerHTML = '5'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 6) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 6`
+=======
+    diceCase.innerHTML = '6'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 7) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 7`
+=======
+    diceCase.innerHTML = '7'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 8) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 8`
+=======
+    diceCase.innerHTML = '8'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 9) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 9`
+=======
+    diceCase.innerHTML = '9'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 10) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 10`
+=======
+    diceCase.innerHTML = '10'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 11) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 11`
+=======
+    diceCase.innerHTML = '11'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 12) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 12`
+=======
+    diceCase.innerHTML = '12'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 13) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 13`
+=======
+    diceCase.innerHTML = '13'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 14) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 14`
+=======
+    diceCase.innerHTML = '14'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 15) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 15`
+=======
+    diceCase.innerHTML = '15'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 16) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 16`
+=======
+    diceCase.innerHTML = '16'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 17) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 17`
+=======
+    diceCase.innerHTML = '17'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 18) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 18`
+=======
+    diceCase.innerHTML = '18'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 19) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 19`
+=======
+    diceCase.innerHTML = '19'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   } else if (d20Result == 20) {
+<<<<<<< HEAD
     diceCase.innerHTML = `${player.id}'s D20: 20`
+=======
+    diceCase.innerHTML = '20'
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
     setTimeout(function () {
       diceCase.innerHTML = 'Dice displayed Here'
     }, 5000)
   }
 }
 
+<<<<<<< HEAD
 const flipCoin = player => {
   let coinResult = parseInt(Math.random() * 2 + 1)
   console.log(coinResult)
@@ -236,6 +348,8 @@ const flipCoin = player => {
   }
 }
 
+=======
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
 submitName.onclick = function registerName() {
   if (!commander.value || !inputName.value) {
     alert('Please, fill both inputs: your name and commander image URL')
@@ -285,8 +399,13 @@ submitName.onclick = function registerName() {
         
         <td colspan="3">
         P1 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P2 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P3 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P4 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input></br>P5 Commander's DMG <input class="commanderDmg"></input><input class="commanderDmg"></input>
+<<<<<<< HEAD
         <td colspan="3"><button onclick="rollD6(${inputName.value})">Roll D6</button></br><button onclick="rollD20(${inputName.value})">Roll D20</button>
         <button onclick="flipCoin(${inputName.value})">Flip Coin</button>
+=======
+        <td colspan="3"><button onclick="rollD6()">Roll D6</button></br><button onclick="rollD20()">Roll D20</button>
+        
+>>>>>>> 7c28902408bb82bc76b32fd1db2e714f6bbb6417
         </td>
         </td>
       </tr>
