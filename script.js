@@ -15,6 +15,21 @@ let commanderImgs = []
 let playersHtml = ''
 let counter = 0
 
+
+const turnIntoJson = (response) => {
+  return response.json()
+}
+commander.addEventListener('input', () => {
+console.log(commander.value)
+
+
+fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
+// .then(response => fetch(`https://api.scryfall.com/cards/${response[1]}`) ) ou alg assim, segue  baile e dps vlta aqui
+.then (turnIntoJson)
+.then (response => {console.log(response).object})
+.then(response => {console.log(response)})
+})
+
 //  PODIA SER ASSIM, OU ARRAYS AQUI NO JS COM IMGS TBM
 
 let d6 = [
