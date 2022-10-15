@@ -9,6 +9,8 @@ A simple way to keep track of player's life point, counters, commanders, etc
 
 2 - Testing on Git/GitHub _DONE_
 
-3 - Use API to fetch commander's imgs
+3 - Use API to fetch commander's imgs _ONGOING_
 
-4 - WebSocket so people can checkout the score on their own
+4 - WebSocket so people can checkout the score on their own (far beyong now)
+
+its kinda becoming a testing repository (should've done it by branching it from main project instead of creating a new repo tho)
