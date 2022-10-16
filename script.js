@@ -14,20 +14,35 @@ let partner = []
 let commanderImgs = []
 let playersHtml = ''
 let counter = 0
+const commanderSelection = document.querySelector('#commanderSelection')
 
 
 const turnIntoJson = (response) => {
   return response.json()
 }
+
+const multiSearch = (response) => {
+
+  console.log(commanderSelection)
+  if(!response.length) {
+    return
+  }
+  else {
+    console.log(response)
+    for(i = 0; i <= response.length -1; i++ ) {
+      commanderSelection.innerHTML += `<option value="${response[i]}">${response[i]}</option>`
+    }
+    return console.log(commanderSelection)
+}
+}
+
 commander.addEventListener('input', () => {
-console.log(commander.value)
-
-
 fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
 // .then(response => fetch(`https://api.scryfall.com/cards/${response[1]}`) ) ou alg assim, segue  baile e dps vlta aqui
 .then (turnIntoJson)
-.then (response => {console.log(response).object})
-.then(response => {console.log(response)})
+.then (response => multiSearch(response.data)) //caraleo agr foi num mexe nessa porra
+
+
 })
 
 //  PODIA SER ASSIM, OU ARRAYS AQUI NO JS COM IMGS TBM
