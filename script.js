@@ -21,7 +21,7 @@ const turnIntoJson = (response) => {
   return response.json()
 }
 
-const multiSearch = (response) => {
+const commanderList = (response) => {
 
   console.log(commanderSelection)
   if(!response.length) {
@@ -33,14 +33,15 @@ const multiSearch = (response) => {
       commanderSelection.innerHTML += `<option value="${response[i]}">${response[i]}</option>`
     }
     return console.log(commanderSelection)
-}
+  }
 }
 
 commander.addEventListener('input', () => {
+  commanderSelection.innerHTML = 
 fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
 // .then(response => fetch(`https://api.scryfall.com/cards/${response[1]}`) ) ou alg assim, segue  baile e dps vlta aqui
 .then (turnIntoJson)
-.then (response => multiSearch(response.data)) //caraleo agr foi num mexe nessa porra
+.then (response => commanderList(response.data)) //caraleo agr foi num mexe nessa porra
 
 
 })
