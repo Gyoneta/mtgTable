@@ -14,6 +14,8 @@ let partner = []
 let commanderImgs = []
 let playersHtml = ''
 let counter = 0
+
+
 const commanderSelection = document.querySelector('#commanderSelection')
 
 
@@ -42,9 +44,9 @@ fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
 // .then(response => fetch(`https://api.scryfall.com/cards/${response[1]}`) ) ou alg assim, segue  baile e dps vlta aqui
 .then (turnIntoJson)
 .then (response => commanderList(response.data)) //caraleo agr foi num mexe nessa porra
-
-
 })
+
+//algo como onselect card fetch /cards/images_uris=${value} or something like this i guess, gotta try when i have some free time
 
 //  PODIA SER ASSIM, OU ARRAYS AQUI NO JS COM IMGS TBM
 
