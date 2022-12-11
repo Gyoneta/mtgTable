@@ -37,7 +37,7 @@ const commanderList = (response) => {
 }
 
 commander.addEventListener('input', () => {
-  commanderSelection.innerHTML = 
+  commanderSelection.innerHTML = ``
 fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
 // .then(response => fetch(`https://api.scryfall.com/cards/${response[1]}`) ) ou alg assim, segue  baile e dps vlta aqui
 .then (turnIntoJson)
