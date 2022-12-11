@@ -46,7 +46,11 @@ fetch(`https://api.scryfall.com/cards/autocomplete?q=${commander.value}`)
 .then (response => commanderList(response.data)) //caraleo agr foi num mexe nessa porra
 })
 
-//algo como onselect card fetch /cards/images_uris=${value} or something like this i guess, gotta try when i have some free time
+commanderSelection.addEventListener('change', () => {
+  console.log(commanderSelection.value)
+}) 
+
+// now just put the line above to bring the value as fetchP(`api/cards/images_uris`) or something like that, gonna try whenever i have time
 
 //  PODIA SER ASSIM, OU ARRAYS AQUI NO JS COM IMGS TBM
 
